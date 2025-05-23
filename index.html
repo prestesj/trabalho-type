@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Sites</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Comentários</h1>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <div class="comments-section">
+                    <h2>Comentários</h2>
+                    <form id="comment-form">
+                        <div>
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="comment">Comentário:</label>
+                            <textarea id="comment" name="comment" rows="4" required></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <h3>Comentários Recentes</h3>
+                    <div id="comments-list" class="comments-list">
+                    </div>
+                </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lista de Sites</p>
+    </footer>
+    <script src="dist/script.js"></script>
+</body>
+
+</html>
